@@ -1,4 +1,4 @@
-/* タブレット向けレイアウト */
+/* for Tablet */
 @media all and (max-width: 1000px) {
 	.lesson {
 	  width: 50%;
@@ -18,7 +18,7 @@
 	}
   }
   
-  /* スマホ向けレイアウト */
+  /* for smartphone */
   @media all and (max-width: 670px) {
 	.lesson {
 	  width: 100%;
@@ -36,12 +36,10 @@
 	  text-align: left;
 	}
   
-	/* header-rightクラスのdisplayをnoneに指定してください */
 	.header-right {
 	  display: none;
 	}
 	
-	/* menu-iconクラスのdisplayをblockに指定してください  */
 	 .menu-icon {
 	  display: block;
 	}

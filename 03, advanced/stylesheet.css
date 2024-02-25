@@ -2,29 +2,27 @@
 	box-sizing: border-box;
   }
   
-  body {
+body {
 	margin: 0;
-	font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+	font-family: "Hiragino Kaku Gothic ProN";
   }
   
   a {
 	text-decoration: none;
   }
-  
   .clear {
-	clear: left;
+  clear: left;
   }
   
   .container {
 	max-width: 1170px;
 	width: 100%;
-	padding: 0 15px;
 	margin: 0 auto;
   }
   
   .top-wrapper {
 	padding: 180px 0 100px 0;
-	background-image: url(https://prog-8.com/images/html/advanced/top.png);
+	background-image: url(images/top.png);
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -83,7 +81,7 @@
 	height: 65px;
 	width: 100%;
 	background-color: rgba(34, 49, 52, 0.9);
-	position :fixed;
+	position: fixed;
 	top: 0;
 	z-index: 10;
   }
@@ -102,6 +100,10 @@
 	margin-right: -25px;
   }
   
+  .header-right:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+  }
+  
   .header-right a {
 	line-height: 65px;
 	padding: 0 25px;
@@ -114,18 +116,15 @@
   .header-right a:hover {
 	background-color: rgba(255, 255, 255, 0.3);
   }
-  
-  /* menu-iconのCSSを貼り付けてください */
+
   .menu-icon {
 	color: white;
 	float: right;
 	font-size: 25px;
 	padding: 21px 0;
-	/* displayをnoneに指定してください */
 	display: none;
   }
-  
-  
+
   .lesson-wrapper {
 	padding-bottom: 80px;
 	padding-left: 5%;
@@ -156,8 +155,9 @@
   .lesson-icon p {
 	position: absolute;
 	top: 44%;
+	font-weight: bold;
 	width: 100%;
-	color: white;
+	color: rgb(6, 5, 5);
   }
   
   .text-contents {
