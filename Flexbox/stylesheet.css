@@ -1,0 +1,55 @@
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 60px 0px;
+	text-align: center;
+  }
+  li {
+	color: white;
+	height: 80px;
+	line-height: 80px;
+  }
+  .li1 {
+	background-color: #edc47c;
+  }
+  .li2 {
+	background-color: #d9f481;
+  }
+  .li3 {
+	background-color: #9eea3b;
+  }
+  .li4 {
+	background-color: #d0db57;
+  }
+  
+  .flex-list {
+	display: flex;
+  }
+  .flex-list li {
+	flex: auto;
+  }
+  
+  /* タブレット向けレイアウト */
+  @media (max-width: 1000px) {
+	.flex-list {
+	  flex-wrap: wrap;
+	}
+	.flex-list li {
+	  width: 50%;
+	}
+  }
+  
+  /* スマホ向けレイアウト */
+  /* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+  @media (max-width: 670px) {
+	/* .flex-listにflex-directionを指定してください */
+	.flex-list {
+	  flex-direction: column;
+	}
+	/* .flex-list liにmarginを0 autoに指定してください */
+	.flex-list li {
+	  margin: 0 auto;
+	}
+	
+  }
+  
