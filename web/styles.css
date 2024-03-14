@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add styles for the about-info section */
+.about-info {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about-info h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-info p {
+  color: #666;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-box {
+  width: 45%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.photo-box img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #333;
+}
+
+.text-box {
+  width: 45%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #333;
+}
+
